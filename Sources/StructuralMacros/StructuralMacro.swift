@@ -15,7 +15,7 @@ public struct StructuralMacro: MemberMacro {
         in context: some MacroExpansionContext
     ) throws -> [DeclSyntax] {
         
-        guard declaration.is(StructDeclSyntax.self) else {
+        guard let structDecl = declaration.as(StructDeclSyntax.self) else {
             throw StructuralError(message: "Can only be applied to struct types.")
         }
 
@@ -30,8 +30,19 @@ public struct StructuralMacro: MemberMacro {
                 "List<Property<\(property.1)>, \(result)>"
             }
 
+        let propertiesDecl: DeclSyntax = storedProperties
+            .reversed()
+            .reduce("Empty()") { result, property in
+                "List(head: Property(name: \(literal: property.0.text), value: \(property.0)), tail: \(result))"
+            }
+
         return [
-            "typealias Structure = Struct<\(typeDecl)>"
+            "typealias Structure = Struct<\(typeDecl)>",
+            """
+            var to: Structure {
+                Struct(name: \(literal: structDecl.name.text), properties: \(propertiesDecl))
+            }
+            """,
         ]
     }
 }
