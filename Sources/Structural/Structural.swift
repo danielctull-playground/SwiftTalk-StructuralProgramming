@@ -26,7 +26,7 @@ public struct Property<Value> {
     }
 }
 
-public struct List<Head, Tail> {
+public struct LinkedList<Head, Tail> {
     public let head: Head
     public let tail: Tail
 

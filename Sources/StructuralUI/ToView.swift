@@ -27,7 +27,7 @@ extension Property: ToView where Value: ToView {
     }
 }
 
-extension Structural.List: ToView where Head: ToView, Tail: ToView {
+extension LinkedList: ToView where Head: ToView, Tail: ToView {
     public var view: some View {
         head.view
         tail.view

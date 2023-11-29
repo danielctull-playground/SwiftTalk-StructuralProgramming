@@ -27,13 +27,13 @@ public struct StructuralMacro: MemberMacro {
         let typeDecl: DeclSyntax = storedProperties
             .reversed()
             .reduce("Empty") { result, property in
-                "List<Property<\(property.1)>, \(result)>"
+                "LinkedList<Property<\(property.1)>, \(result)>"
             }
 
         let propertiesDecl: DeclSyntax = storedProperties
             .reversed()
             .reduce("Empty()") { result, property in
-                "List(head: Property(name: \(literal: property.0.text), value: \(property.0)), tail: \(result))"
+                "LinkedList(head: Property(name: \(literal: property.0.text), value: \(property.0)), tail: \(result))"
             }
 
         let fromDecl = zip(storedProperties.indices, storedProperties).map { (index, property) in
