@@ -7,125 +7,123 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		651B05352B177D1A00FA2DA2 /* StructuralProgrammingExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651B05342B177D1A00FA2DA2 /* StructuralProgrammingExampleApp.swift */; };
-		651B05372B177D1A00FA2DA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651B05362B177D1A00FA2DA2 /* ContentView.swift */; };
-		651B05392B177D1B00FA2DA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 651B05382B177D1B00FA2DA2 /* Assets.xcassets */; };
-		651B053D2B177D1B00FA2DA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 651B053C2B177D1B00FA2DA2 /* Preview Assets.xcassets */; };
-		654197922B177D7700363CED /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654197912B177D7700363CED /* Book.swift */; };
-		6541979A2B17812000363CED /* Structural in Frameworks */ = {isa = PBXBuildFile; productRef = 654197992B17812000363CED /* Structural */; };
-		6541979C2B17812000363CED /* StructuralUI in Frameworks */ = {isa = PBXBuildFile; productRef = 6541979B2B17812000363CED /* StructuralUI */; };
+		65297FBB2B1781CE009CC131 /* Structural in Frameworks */ = {isa = PBXBuildFile; productRef = 65297FBA2B1781CE009CC131 /* Structural */; };
+		65297FBD2B1781CE009CC131 /* StructuralUI in Frameworks */ = {isa = PBXBuildFile; productRef = 65297FBC2B1781CE009CC131 /* StructuralUI */; };
+		65297FBF2B1781E0009CC131 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65297FBE2B1781E0009CC131 /* Book.swift */; };
+		654197AA2B17818C00363CED /* StructuralProgrammingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654197A92B17818C00363CED /* StructuralProgrammingApp.swift */; };
+		654197AC2B17818C00363CED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654197AB2B17818C00363CED /* ContentView.swift */; };
+		654197AE2B17818D00363CED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654197AD2B17818D00363CED /* Assets.xcassets */; };
+		654197B22B17818D00363CED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654197B12B17818D00363CED /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		651B05312B177D1A00FA2DA2 /* StructuralProgrammingExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StructuralProgrammingExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		651B05342B177D1A00FA2DA2 /* StructuralProgrammingExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructuralProgrammingExampleApp.swift; sourceTree = "<group>"; };
-		651B05362B177D1A00FA2DA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		651B05382B177D1B00FA2DA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		651B053A2B177D1B00FA2DA2 /* StructuralProgrammingExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StructuralProgrammingExample.entitlements; sourceTree = "<group>"; };
-		651B053C2B177D1B00FA2DA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		654197912B177D7700363CED /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
-		654197982B17810500363CED /* SwiftTalk-StructuralProgramming */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "SwiftTalk-StructuralProgramming"; sourceTree = "<group>"; };
+		65297FBE2B1781E0009CC131 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		654197A62B17818C00363CED /* StructuralProgramming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StructuralProgramming.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		654197A92B17818C00363CED /* StructuralProgrammingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructuralProgrammingApp.swift; sourceTree = "<group>"; };
+		654197AB2B17818C00363CED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		654197AD2B17818D00363CED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		654197AF2B17818D00363CED /* StructuralProgramming.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StructuralProgramming.entitlements; sourceTree = "<group>"; };
+		654197B12B17818D00363CED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		651B052E2B177D1A00FA2DA2 /* Frameworks */ = {
+		654197A32B17818C00363CED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6541979A2B17812000363CED /* Structural in Frameworks */,
-				6541979C2B17812000363CED /* StructuralUI in Frameworks */,
+				65297FBB2B1781CE009CC131 /* Structural in Frameworks */,
+				65297FBD2B1781CE009CC131 /* StructuralUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		651B05282B177D1A00FA2DA2 = {
-			isa = PBXGroup;
-			children = (
-				654197982B17810500363CED /* SwiftTalk-StructuralProgramming */,
-				651B05332B177D1A00FA2DA2 /* StructuralProgrammingExample */,
-				651B05322B177D1A00FA2DA2 /* Products */,
-				654197932B177DB500363CED /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		651B05322B177D1A00FA2DA2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				651B05312B177D1A00FA2DA2 /* StructuralProgrammingExample.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		651B05332B177D1A00FA2DA2 /* StructuralProgrammingExample */ = {
-			isa = PBXGroup;
-			children = (
-				654197912B177D7700363CED /* Book.swift */,
-				651B05342B177D1A00FA2DA2 /* StructuralProgrammingExampleApp.swift */,
-				651B05362B177D1A00FA2DA2 /* ContentView.swift */,
-				651B05382B177D1B00FA2DA2 /* Assets.xcassets */,
-				651B053A2B177D1B00FA2DA2 /* StructuralProgrammingExample.entitlements */,
-				651B053B2B177D1B00FA2DA2 /* Preview Content */,
-			);
-			path = StructuralProgrammingExample;
-			sourceTree = "<group>";
-		};
-		651B053B2B177D1B00FA2DA2 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				651B053C2B177D1B00FA2DA2 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		654197932B177DB500363CED /* Frameworks */ = {
+		65297FB92B1781CE009CC131 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6541979D2B17818C00363CED = {
+			isa = PBXGroup;
+			children = (
+				654197A82B17818C00363CED /* StructuralProgramming */,
+				654197A72B17818C00363CED /* Products */,
+				65297FB92B1781CE009CC131 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		654197A72B17818C00363CED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				654197A62B17818C00363CED /* StructuralProgramming.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		654197A82B17818C00363CED /* StructuralProgramming */ = {
+			isa = PBXGroup;
+			children = (
+				654197A92B17818C00363CED /* StructuralProgrammingApp.swift */,
+				65297FBE2B1781E0009CC131 /* Book.swift */,
+				654197AB2B17818C00363CED /* ContentView.swift */,
+				654197AD2B17818D00363CED /* Assets.xcassets */,
+				654197AF2B17818D00363CED /* StructuralProgramming.entitlements */,
+				654197B02B17818D00363CED /* Preview Content */,
+			);
+			path = StructuralProgramming;
+			sourceTree = "<group>";
+		};
+		654197B02B17818D00363CED /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				654197B12B17818D00363CED /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		651B05302B177D1A00FA2DA2 /* StructuralProgrammingExample */ = {
+		654197A52B17818C00363CED /* StructuralProgramming */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 651B05402B177D1B00FA2DA2 /* Build configuration list for PBXNativeTarget "StructuralProgrammingExample" */;
+			buildConfigurationList = 654197B52B17818D00363CED /* Build configuration list for PBXNativeTarget "StructuralProgramming" */;
 			buildPhases = (
-				651B052D2B177D1A00FA2DA2 /* Sources */,
-				651B052E2B177D1A00FA2DA2 /* Frameworks */,
-				651B052F2B177D1A00FA2DA2 /* Resources */,
+				654197A22B17818C00363CED /* Sources */,
+				654197A32B17818C00363CED /* Frameworks */,
+				654197A42B17818C00363CED /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = StructuralProgrammingExample;
+			name = StructuralProgramming;
 			packageProductDependencies = (
-				654197992B17812000363CED /* Structural */,
-				6541979B2B17812000363CED /* StructuralUI */,
+				65297FBA2B1781CE009CC131 /* Structural */,
+				65297FBC2B1781CE009CC131 /* StructuralUI */,
 			);
-			productName = StructuralProgrammingExample;
-			productReference = 651B05312B177D1A00FA2DA2 /* StructuralProgrammingExample.app */;
+			productName = StructuralProgramming;
+			productReference = 654197A62B17818C00363CED /* StructuralProgramming.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		651B05292B177D1A00FA2DA2 /* Project object */ = {
+		6541979E2B17818C00363CED /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					651B05302B177D1A00FA2DA2 = {
+					654197A52B17818C00363CED = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 651B052C2B177D1A00FA2DA2 /* Build configuration list for PBXProject "StructuralProgrammingExample" */;
+			buildConfigurationList = 654197A12B17818C00363CED /* Build configuration list for PBXProject "StructuralProgramming" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -133,43 +131,43 @@
 				en,
 				Base,
 			);
-			mainGroup = 651B05282B177D1A00FA2DA2;
-			productRefGroup = 651B05322B177D1A00FA2DA2 /* Products */;
+			mainGroup = 6541979D2B17818C00363CED;
+			productRefGroup = 654197A72B17818C00363CED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				651B05302B177D1A00FA2DA2 /* StructuralProgrammingExample */,
+				654197A52B17818C00363CED /* StructuralProgramming */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		651B052F2B177D1A00FA2DA2 /* Resources */ = {
+		654197A42B17818C00363CED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				651B053D2B177D1B00FA2DA2 /* Preview Assets.xcassets in Resources */,
-				651B05392B177D1B00FA2DA2 /* Assets.xcassets in Resources */,
+				654197B22B17818D00363CED /* Preview Assets.xcassets in Resources */,
+				654197AE2B17818D00363CED /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		651B052D2B177D1A00FA2DA2 /* Sources */ = {
+		654197A22B17818C00363CED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				651B05372B177D1A00FA2DA2 /* ContentView.swift in Sources */,
-				651B05352B177D1A00FA2DA2 /* StructuralProgrammingExampleApp.swift in Sources */,
-				654197922B177D7700363CED /* Book.swift in Sources */,
+				654197AC2B17818C00363CED /* ContentView.swift in Sources */,
+				654197AA2B17818C00363CED /* StructuralProgrammingApp.swift in Sources */,
+				65297FBF2B1781E0009CC131 /* Book.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		651B053E2B177D1B00FA2DA2 /* Debug */ = {
+		654197B32B17818D00363CED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +228,7 @@
 			};
 			name = Debug;
 		};
-		651B053F2B177D1B00FA2DA2 /* Release */ = {
+		654197B42B17818D00363CED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -283,15 +281,15 @@
 			};
 			name = Release;
 		};
-		651B05412B177D1B00FA2DA2 /* Debug */ = {
+		654197B62B17818D00363CED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = StructuralProgrammingExample/StructuralProgrammingExample.entitlements;
+				CODE_SIGN_ENTITLEMENTS = StructuralProgramming/StructuralProgramming.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"StructuralProgrammingExample/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"StructuralProgramming/Preview Content\"";
 				DEVELOPMENT_TEAM = B2M757K4LG;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -311,7 +309,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.danieltull.StructuralProgrammingExample;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.danieltull.StructuralProgramming;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -321,15 +319,15 @@
 			};
 			name = Debug;
 		};
-		651B05422B177D1B00FA2DA2 /* Release */ = {
+		654197B72B17818D00363CED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = StructuralProgrammingExample/StructuralProgrammingExample.entitlements;
+				CODE_SIGN_ENTITLEMENTS = StructuralProgramming/StructuralProgramming.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"StructuralProgrammingExample/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"StructuralProgramming/Preview Content\"";
 				DEVELOPMENT_TEAM = B2M757K4LG;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -349,7 +347,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.danieltull.StructuralProgrammingExample;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.danieltull.StructuralProgramming;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -362,20 +360,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		651B052C2B177D1A00FA2DA2 /* Build configuration list for PBXProject "StructuralProgrammingExample" */ = {
+		654197A12B17818C00363CED /* Build configuration list for PBXProject "StructuralProgramming" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				651B053E2B177D1B00FA2DA2 /* Debug */,
-				651B053F2B177D1B00FA2DA2 /* Release */,
+				654197B32B17818D00363CED /* Debug */,
+				654197B42B17818D00363CED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		651B05402B177D1B00FA2DA2 /* Build configuration list for PBXNativeTarget "StructuralProgrammingExample" */ = {
+		654197B52B17818D00363CED /* Build configuration list for PBXNativeTarget "StructuralProgramming" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				651B05412B177D1B00FA2DA2 /* Debug */,
-				651B05422B177D1B00FA2DA2 /* Release */,
+				654197B62B17818D00363CED /* Debug */,
+				654197B72B17818D00363CED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -383,15 +381,15 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		654197992B17812000363CED /* Structural */ = {
+		65297FBA2B1781CE009CC131 /* Structural */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Structural;
 		};
-		6541979B2B17812000363CED /* StructuralUI */ = {
+		65297FBC2B1781CE009CC131 /* StructuralUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = StructuralUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 651B05292B177D1A00FA2DA2 /* Project object */;
+	rootObject = 6541979E2B17818C00363CED /* Project object */;
 }

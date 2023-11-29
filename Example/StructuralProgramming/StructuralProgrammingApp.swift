@@ -1,8 +1,7 @@
-
 import SwiftUI
 
 @main
-struct StructuralProgrammingExampleApp: App {
+struct StructuralProgrammingApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
