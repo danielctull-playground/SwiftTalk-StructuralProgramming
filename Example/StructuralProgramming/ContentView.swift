@@ -6,7 +6,9 @@ struct ContentView: View {
 
     private let book = Book(
         title: "Thinking in SwiftUI", 
-        published: .now)
+        published: .now,
+        authors: "Florian and Chris",
+        update: .distantPast)
 
     var body: some View {
         book.to.view
