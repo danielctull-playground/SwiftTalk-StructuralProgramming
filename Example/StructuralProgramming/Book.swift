@@ -1,13 +1,13 @@
 import Foundation
 import Structural
 
+@Structural
 struct Book {
     var title: String
     var published: Date
 }
 
 extension Book {
-    typealias Structure = Struct<List<Property<String>, List<Property<Date>, Empty>>>
 
     var to: Structure {
         Struct(
