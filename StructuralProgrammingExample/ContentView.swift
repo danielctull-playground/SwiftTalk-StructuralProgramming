@@ -1,5 +1,5 @@
-import StructuralProgramming
-import StructuralProgrammingUI
+import Structural
+import StructuralUI
 import SwiftUI
 
 struct ContentView: View {

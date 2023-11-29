@@ -1,5 +1,5 @@
 import Foundation
-import StructuralProgramming
+import Structural
 
 struct Book {
     var title: String

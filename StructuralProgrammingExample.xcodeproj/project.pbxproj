@@ -12,8 +12,8 @@
 		651B05392B177D1B00FA2DA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 651B05382B177D1B00FA2DA2 /* Assets.xcassets */; };
 		651B053D2B177D1B00FA2DA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 651B053C2B177D1B00FA2DA2 /* Preview Assets.xcassets */; };
 		654197922B177D7700363CED /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654197912B177D7700363CED /* Book.swift */; };
-		654197952B177DB500363CED /* StructuralProgramming in Frameworks */ = {isa = PBXBuildFile; productRef = 654197942B177DB500363CED /* StructuralProgramming */; };
-		654197972B177DCF00363CED /* StructuralProgrammingUI in Frameworks */ = {isa = PBXBuildFile; productRef = 654197962B177DCF00363CED /* StructuralProgrammingUI */; };
+		6541979A2B17812000363CED /* Structural in Frameworks */ = {isa = PBXBuildFile; productRef = 654197992B17812000363CED /* Structural */; };
+		6541979C2B17812000363CED /* StructuralUI in Frameworks */ = {isa = PBXBuildFile; productRef = 6541979B2B17812000363CED /* StructuralUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,8 +23,8 @@
 		651B05382B177D1B00FA2DA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		651B053A2B177D1B00FA2DA2 /* StructuralProgrammingExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StructuralProgrammingExample.entitlements; sourceTree = "<group>"; };
 		651B053C2B177D1B00FA2DA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		654197902B177D5C00363CED /* SwiftTalk-StructuralProgramming */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "SwiftTalk-StructuralProgramming"; sourceTree = "<group>"; };
 		654197912B177D7700363CED /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		654197982B17810500363CED /* SwiftTalk-StructuralProgramming */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "SwiftTalk-StructuralProgramming"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,8 +32,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				654197952B177DB500363CED /* StructuralProgramming in Frameworks */,
-				654197972B177DCF00363CED /* StructuralProgrammingUI in Frameworks */,
+				6541979A2B17812000363CED /* Structural in Frameworks */,
+				6541979C2B17812000363CED /* StructuralUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,7 +43,7 @@
 		651B05282B177D1A00FA2DA2 = {
 			isa = PBXGroup;
 			children = (
-				654197902B177D5C00363CED /* SwiftTalk-StructuralProgramming */,
+				654197982B17810500363CED /* SwiftTalk-StructuralProgramming */,
 				651B05332B177D1A00FA2DA2 /* StructuralProgrammingExample */,
 				651B05322B177D1A00FA2DA2 /* Products */,
 				654197932B177DB500363CED /* Frameworks */,
@@ -103,8 +103,8 @@
 			);
 			name = StructuralProgrammingExample;
 			packageProductDependencies = (
-				654197942B177DB500363CED /* StructuralProgramming */,
-				654197962B177DCF00363CED /* StructuralProgrammingUI */,
+				654197992B17812000363CED /* Structural */,
+				6541979B2B17812000363CED /* StructuralUI */,
 			);
 			productName = StructuralProgrammingExample;
 			productReference = 651B05312B177D1A00FA2DA2 /* StructuralProgrammingExample.app */;
@@ -383,13 +383,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		654197942B177DB500363CED /* StructuralProgramming */ = {
+		654197992B17812000363CED /* Structural */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = StructuralProgramming;
+			productName = Structural;
 		};
-		654197962B177DCF00363CED /* StructuralProgrammingUI */ = {
+		6541979B2B17812000363CED /* StructuralUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = StructuralProgrammingUI;
+			productName = StructuralUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

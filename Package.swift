@@ -3,27 +3,27 @@
 import PackageDescription
 
 let package = Package(
-    name: "StructuralProgramming",
+    name: "Structural",
     platforms: [
         .macOS(.v13),
         .iOS(.v16),
     ],
     products: [
         .library(
-            name: "StructuralProgramming",
-            targets: ["StructuralProgramming"]),
+            name: "Structural",
+            targets: ["Structural"]),
         .library(
-            name: "StructuralProgrammingUI",
-            targets: ["StructuralProgrammingUI"]),
+            name: "StructuralUI",
+            targets: ["StructuralUI"]),
     ],
     targets: [
         .target(
-            name: "StructuralProgramming"),
+            name: "Structural"),
         .target(
-            name: "StructuralProgrammingUI",
-            dependencies: ["StructuralProgramming"]),
+            name: "StructuralUI",
+            dependencies: ["Structural"]),
         .testTarget(
-            name: "StructuralProgrammingTests",
-            dependencies: ["StructuralProgramming"]),
+            name: "StructuralTests",
+            dependencies: ["Structural"]),
     ]
 )

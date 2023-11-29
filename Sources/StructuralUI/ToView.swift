@@ -6,9 +6,9 @@ public protocol ToView {
     @ViewBuilder var view: V { get }
 }
 
-// MARK: - StructuralProgramming Conformances
+// MARK: - Structural Conformances
 
-import StructuralProgramming
+import Structural
 
 extension Struct: ToView where Properties: ToView {
     public var view: some View {
@@ -27,7 +27,7 @@ extension Property: ToView where Value: ToView {
     }
 }
 
-extension StructuralProgramming.List: ToView where Head: ToView, Tail: ToView {
+extension Structural.List: ToView where Head: ToView, Tail: ToView {
     public var view: some View {
         head.view
         tail.view
