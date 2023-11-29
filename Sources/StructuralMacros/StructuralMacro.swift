@@ -36,11 +36,19 @@ public struct StructuralMacro: MemberMacro {
                 "List(head: Property(name: \(literal: property.0.text), value: \(property.0)), tail: \(result))"
             }
 
+        let fromDecl = zip(storedProperties.indices, storedProperties).map { (index, property) in
+            let tails = Array(repeating: ".tail", count: index).joined()
+            return "\(property.0): structure.properties\(tails).head.value"
+        }.joined(separator: ", ")
+
         return [
             "typealias Structure = Struct<\(typeDecl)>",
             """
             var to: Structure {
                 Struct(name: \(literal: structDecl.name.text), properties: \(propertiesDecl))
+            }
+            static func from(_ structure: Structure) -> Self {
+                Self(\(raw: fromDecl))
             }
             """,
         ]
